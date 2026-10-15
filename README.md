@@ -1,4 +1,4 @@
-# Pelajaran Dasar Python
+# belajar Python
 
 Kumpulan contoh program sederhana untuk mempelajari dasar-dasar pemrograman Python secara bertahap dan praktis.
 
