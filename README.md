@@ -13,6 +13,7 @@ Kumpulan contoh program sederhana untuk mempelajari dasar-dasar pemrograman Pyth
 - List atau array
 - Fungsi
 - Algoritma pencarian sederhana
+- Struktur data Stack dengan konsep LIFO (Last In, First Out)
 - File handling
 - Dasar-dasar Object-Oriented Programming (OOP)
 
@@ -35,6 +36,8 @@ Kumpulan contoh program sederhana untuk mempelajari dasar-dasar pemrograman Pyth
 | `Array.py` | Menambah, mengubah, dan menghapus data pada list |
 | `Function.py` | Membuat dan menggunakan fungsi |
 | `Data_dan_algoritma.py` | Algoritma linear search |
+| `LIFO/` | Contoh struktur data Stack dan konsep LIFO |
+| `LIFO/stack pengelolaan riwayat.py` | Program pengelolaan riwayat aktivitas menggunakan Stack |
 | `Handling/Handling.py` | Membuat, membaca, menambah, dan menghapus file |
 | `OOP/` | Contoh penerapan konsep OOP dalam beberapa kasus |
 
@@ -52,6 +55,7 @@ Contoh lain:
 python While_loop.y.py
 python Handling/Handling.py
 python OOP/sekolah.py
+python "LIFO/stack pengelolaan riwayat.py"
 ```
 
 Beberapa program meminta input dari pengguna. Ikuti instruksi yang muncul pada terminal.
@@ -65,11 +69,12 @@ Beberapa program meminta input dari pengguna. Ikuti instruksi yang muncul pada t
 5. `Break.py`, `Continue.py`, dan `For_else.py`
 6. `Array.py` dan `Function.py`
 7. `Data_dan_algoritma.py`
-8. `Handling/Handling.py`
-9. Folder `OOP/`
+8. Folder `LIFO/`
+9. `Handling/Handling.py`
+10. Folder `OOP/`
 
 ## Tujuan Pembelajaran
 
-Setelah mempelajari contoh-contoh di repository ini, pembaca diharapkan mampu memahami sintaks dasar Python, membuat program interaktif sederhana, mengelola data, menggunakan fungsi, membaca dan menulis file, serta mengenal konsep dasar OOP.
+Setelah mempelajari contoh-contoh di repository ini, pembaca diharapkan mampu memahami sintaks dasar Python, membuat program interaktif sederhana, mengelola data, menggunakan fungsi, memahami konsep LIFO melalui struktur data Stack, membaca dan menulis file, serta mengenal konsep dasar OOP.
 
 Selamat belajar Python!
