@@ -1,12 +1,16 @@
 
+# Membuat struktur data Stack.
 class Stack:
     def __init__(self):
+        # Menyimpan elemen stack dalam list.
         self.items = []
 
+    # Menambahkan data ke bagian atas stack.
     def push(self, data):
         self.items.append(data)
         print("Data berhasil ditambahkan!")
 
+    # Mengambil data paling atas.
     def pop(self):
         if self.is_empty():
             print("Stack masih kosong!")
@@ -14,27 +18,33 @@ class Stack:
             data = self.items.pop()
             print("Data yang diambil:", data)
 
+    # Melihat data paling atas tanpa menghapusnya.
     def peek(self):
         if self.is_empty():
             print("Stack masih kosong!")
         else:
             print("Data TOP:", self.items[-1])
 
+    # Menampilkan seluruh isi stack.
     def display(self):
         if self.is_empty():
             print("Stack masih kosong!")
         else:
             print("Isi stack:", self.items)
 
+    # Menghitung jumlah elemen stack.
     def size(self):
         print("Jumlah elemen:", len(self.items))
 
+    # Memeriksa apakah stack kosong.
     def is_empty(self):
         return len(self.items) == 0
 
 
+# Membuat objek Stack.
 stack = Stack()
 
+# Menampilkan menu selama program berjalan.
 while True:
     print("\n===== PROGRAM STACK =====")
     print("1. Push data")

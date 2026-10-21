@@ -1,3 +1,4 @@
+# Menyimpan informasi rumah sakit.
 class Rumah_Sakit:
     def __init__(self, nama, alamat, jumlah_kamar, jumlah_dokter):
         self.nama = nama
@@ -10,6 +11,7 @@ class Rumah_Sakit:
         print("Jumlah Kamar :", self.jumlah_kamar)
         print("Jumlah Dokter :", self.jumlah_dokter)
 
+# Menyimpan informasi dokter.
 class Dokter:
     def __init__(self, nama, spesialisasi):
         self.nama = nama
@@ -18,6 +20,7 @@ class Dokter:
         print("Nama Dokter :", self.nama)
         print("Spesialisasi :", self.spesialisasi)
 
+# Menyimpan informasi pasien.
 class Pasien:
     def __init__(self, nama, umur, penyakit):
         self.nama = nama
@@ -28,6 +31,7 @@ class Pasien:
         print("Umur :", self.umur)
         print("Penyakit :", self.penyakit)
 
+# Membuat data contoh rumah sakit, dokter, dan pasien.
 rumah_sakit = Rumah_Sakit("RS H.Hamzah", "Jl. Muara Bulian No. 25", 20, 5)
 dokter1 = Dokter("Dr. Fathir", "Spesialis Gigi")
 dokter2 = Dokter("Dr. Kemaz", "Spesialis Mata")

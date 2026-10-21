@@ -1,3 +1,4 @@
+# Menyimpan informasi kampus.
 class Kampus:
     def __init__(self, nama_kampus, alamat_kampus, jumlah_dosen, jumlah_mahasiswa):
         self.nama_kampus = nama_kampus
@@ -10,6 +11,7 @@ class Kampus:
         print("Jumlah dosen :", self.jumlah_dosen)
         print("Jumlah mahasiswa :", self.jumlah_mahasiswa)
 
+# Menyimpan informasi dosen.
 class Dosen:
     def __init__(self, NIDN, nama, kelas, prodi):
         self.NIDN = NIDN
@@ -22,6 +24,7 @@ class Dosen:
         print("Kelas :", self.kelas)
         print("Prodi :", self.prodi)
 
+# Menyimpan informasi mahasiswa.
 class Mahasiswa:
     def __init__(self, NIM, nama, semester, prodi):
         self.NIM = NIM
@@ -34,6 +37,7 @@ class Mahasiswa:
         print("Semester :", self.semester)
         print("Prodi :", self.prodi)
 
+# Membuat data contoh kampus, dosen, dan mahasiswa.
 kampus = Kampus("Universitas Graha Karya Muara Bulian", "Jl. Teratai No. 123", 50, 2000)
 dosen1 = Dosen("001", "Dr. Hamzah Azka", "A", "Teknik Informatika")
 dosen2 = Dosen("002", "Dr. M Fathir", "B", "Sistem Informasi")

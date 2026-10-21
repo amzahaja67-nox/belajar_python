@@ -1,8 +1,10 @@
+# Menampilkan angka 1 sampai 5.
 angka = 1
 while angka <= 5:
     print(angka)
-    angka += 1 # angka = angka + 1
+    angka += 1  # Menambah angka agar perulangan berlanjut.
 
+# Mengulang input sampai password benar.
 password = "hamzah25"
 
 while password != "12345":

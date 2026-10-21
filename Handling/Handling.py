@@ -1,11 +1,12 @@
 from pathlib import Path
 import os
-# Fungsi untuk membuat file data.txt
+
+# Menentukan lokasi file di folder program.
 BASE_DIR = Path(__file__).resolve().parent
 DATA_FILE = BASE_DIR / "data.txt"
 MAHASISWA_FILE = BASE_DIR / "mahasiswa.txt"
 
-# Fungsi untuk membuat file data.txt
+# Membuat file data.txt.
 def buat_file():
     with DATA_FILE.open("w", encoding="utf-8") as file:
         file.write("Belajar File Handling Python\n")
@@ -13,7 +14,7 @@ def buat_file():
         file.write("Menggunakan Visual Studio Code")
     print("File berhasil dibuat")
 
-# Fungsi untuk membaca file data.txt
+# Membaca seluruh isi data.txt.
 def baca_file():
     if not DATA_FILE.exists():
         print("File data.txt belum dibuat.")
@@ -24,7 +25,7 @@ def baca_file():
         print("\nIsi file data.txt:\n")
         print(isi)
 
-# Fungsi untuk membaca file per baris
+# Membaca data.txt baris demi baris.
 def baca_per_baris():
     if not DATA_FILE.exists():
         print("File data.txt belum dibuat.")
@@ -35,7 +36,7 @@ def baca_per_baris():
         for baris in file:
             print(baris, end="")
 
-# Fungsi untuk menambahkan data ke file data.txt
+# Menambahkan data ke data.txt.
 def tambah_data():
     if not DATA_FILE.exists():
         print("File data.txt belum dibuat. Silakan buat file terlebih dahulu.")
@@ -46,7 +47,7 @@ def tambah_data():
 
     print("Data berhasil ditambahkan")
 
-# Fungsi untuk mengecek keberadaan file
+# Mengecek keberadaan file yang digunakan.
 def cek_file():
     if DATA_FILE.exists():
         print("File data.txt ditemukan")
@@ -58,7 +59,7 @@ def cek_file():
     else:
         print("File mahasiswa.txt tidak ditemukan")
 
-# Fungsi untuk menghitung jumlah baris dalam file mahasiswa.txt
+# Menghitung jumlah baris mahasiswa.
 def hitung_jumlah_baris():
     if not MAHASISWA_FILE.exists():
         print("File mahasiswa.txt belum dibuat.")
@@ -69,7 +70,7 @@ def hitung_jumlah_baris():
 
     print(f"Jumlah data : {jumlah}")
 
-# Fungsi untuk menyimpan data mahasiswa ke file mahasiswa.txt
+# Menyimpan data mahasiswa ke file.
 def simpan_data_mahasiswa():
     nama = input("Masukkan nama : ")
     nim = input("Masukkan NIM : ")
@@ -92,7 +93,7 @@ def simpan_data_mahasiswa():
         print("Data berhasil disimpan")
         lanjut = input("Apakah Anda ingin memasukkan data lagi? (y/n): ")
 
-# Fungsi untuk menampilkan data mahasiswa dari file mahasiswa.txt
+# Menampilkan isi file mahasiswa.
 def tampilkan_data_mahasiswa():
     if not MAHASISWA_FILE.exists():
         print("File mahasiswa.txt belum dibuat.")
@@ -102,7 +103,7 @@ def tampilkan_data_mahasiswa():
         print("\nData mahasiswa:\n")
         print(file.read())
 
-# Fungsi untuk menghapus file data.txt
+# Menghapus file data.txt.
 def hapus_file():
     if DATA_FILE.exists():
         os.remove(DATA_FILE)
@@ -110,7 +111,7 @@ def hapus_file():
     else:
         print("File data.txt tidak ditemukan")
 
-# Fungsi untuk menjalankan semua contoh
+# Menjalankan seluruh contoh file handling.
 def jalankan_semua_contoh():
     print("\n=== Membuat file data.txt ===")
     buat_file()
@@ -139,7 +140,7 @@ def jalankan_semua_contoh():
     print("\n=== Menampilkan data mahasiswa ===")
     tampilkan_data_mahasiswa()
 
-# Fungsi untuk menampilkan menu
+# Menampilkan menu utama.
 def menu():
     print("\n=== PROGRAM FILE HANDLING PYTHON ===")
     print("1. Buat file data.txt")
@@ -154,10 +155,11 @@ def menu():
     print("10. Jalankan semua contoh")
     print("0. Keluar")
 
-# Fungsi untuk menjalankan program
+# Menjalankan program utama.
 def main():
     while True:
         menu()
+        # Membaca pilihan menu.
         pilihan = input("\nPilih menu: ")
 
         if pilihan == "1":

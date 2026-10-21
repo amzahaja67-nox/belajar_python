@@ -1,3 +1,4 @@
+# Menyimpan informasi bank.
 class Bank:
     def __init__(self, nama_bank, alamat, kode_bank, daftar_rekening, jumlah_karyawan):
         self.nama_bank = nama_bank
@@ -12,6 +13,7 @@ class Bank:
         print("Jumlah Rekening :", len(self.daftar_rekening))
         print("Jumlah Karyawan :", self.jumlah_karyawan)
 
+# Menyimpan informasi rekening.
 class Rekening:
     def __init__(self, nomor_rekening, nama_pemilik, saldo):
         self.nomor_rekening = nomor_rekening
@@ -22,6 +24,7 @@ class Rekening:
         print("Nama Pemilik :", self.nama_pemilik)
         print("Saldo :", self.saldo)
 
+# Menyimpan informasi karyawan.
 class Karyawan:
     def __init__(self, nama, jabatan, gaji):
         self.nama = nama
@@ -32,6 +35,7 @@ class Karyawan:
         print("Jabatan :", self.jabatan)
         print("Gaji :", self.gaji)
 
+# Menyimpan informasi nasabah.
 class Nasabah:
     def __init__(self, nama, alamat, nomor_telepon):
         self.nama = nama
@@ -42,6 +46,7 @@ class Nasabah:
         print("Alamat :", self.alamat)
         print("Nomor Telepon :", self.nomor_telepon)
 
+# Membuat data contoh bank dan nasabahnya.
 bank = Bank("Bank AMZ", "Jl. Muara Bulian No. 09", "HAM025", [], 4)
 
 rekening = Rekening("1234567890", "Azka", 1000000)

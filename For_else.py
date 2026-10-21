@@ -1,3 +1,4 @@
+# Meminta kata dan huruf yang akan dicari.
 kata = input("Masukkan kata : ")
 huruf_dicari = input("Masukkan huruf dicari : ")
 

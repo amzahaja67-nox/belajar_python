@@ -1,3 +1,4 @@
+# Menyimpan informasi dosen.
 class Dosen:
     def __init__(self, NIDN, nama, kelas, prodi):
         self.NIDN = NIDN
@@ -10,6 +11,7 @@ class Dosen:
         print("Kelas :", self.kelas)
         print("Prodi :", self.prodi)
 
+# Membuat objek dosen.
 dosen = Dosen("251010", "M Fathir", "3", "Sistem Informasi")
 
 print("\n===INFO DOSEN===")

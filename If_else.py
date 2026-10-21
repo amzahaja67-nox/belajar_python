@@ -1,3 +1,4 @@
+# Menentukan nilai huruf berdasarkan skor.
 nilai = 45
 
 if nilai >= 85:

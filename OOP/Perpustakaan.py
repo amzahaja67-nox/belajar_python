@@ -1,4 +1,4 @@
-# Perpustakaan
+# Menyimpan informasi perpustakaan.
 class Perpustakaan:
     def __init__(self, nama_perpustakaan, alamat, jumlah_buku):
         self.nama_perpustakaan = nama_perpustakaan
@@ -8,7 +8,7 @@ class Perpustakaan:
         print("\nNama Perpustakaan :", self.nama_perpustakaan)
         print("Alamat :", self.alamat)
         print("Jumlah Buku :", self.jumlah_buku)
-# Buku
+# Menyimpan informasi buku.
 class Buku:
     def __init__(self, judul_buku, pencipta, tahun_terbit):
         self.judul_buku = judul_buku
@@ -19,7 +19,7 @@ class Buku:
         print("Pencipta :", self.pencipta)
         print("Tahun Terbit :", self.tahun_terbit)
 
-# Anggota
+# Menyimpan informasi anggota.
 class Anggota:
     def __init__(self, nama, nim, alamat, nomor_handphone):
         self.nama = nama
@@ -32,6 +32,7 @@ class Anggota:
         print("Alamat :", self.alamat)
         print("Nomor Handphone :", self.nomor_handphone)
 
+# Membuat data contoh perpustakaan, buku, dan anggota.
 perpustakaan = Perpustakaan("Perpustakaan Amzah", "Jl. Muara Bulian No. 1", 5)
 
 buku1 = Buku("Sistem Basis Data", "Indra", 2020)

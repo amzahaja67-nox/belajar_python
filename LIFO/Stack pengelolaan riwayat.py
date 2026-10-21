@@ -54,6 +54,7 @@ while True:
     pilihan = input("Pilih menu (1-6): ")
 
     if pilihan == "1":
+        # Meminta nama aktivitas baru.
         data = input("Masukkan nama aktivitas: ")
 
         if data.strip() == "":

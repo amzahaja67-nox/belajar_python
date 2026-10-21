@@ -1,3 +1,4 @@
+# Menyimpan informasi toko.
 class Toko:
     def __init__(self, nama_toko, jumlah_pegawai, stok_produk):
         self.nama_toko = nama_toko
@@ -32,6 +33,7 @@ class Produk:
         print("Harga :", self.harga)
         print("Stok :", self.stok)
 
+# Membuat data contoh toko, pegawai, dan produk.
 toko1 = Toko("Toko Bagus", "2", "2")
 pegawai1 = Pegawai("2345", "Azka", "kasir", "5000000")
 pegawai2 = Pegawai("6789", "Fatir", "Angkut Barang", "1000000")

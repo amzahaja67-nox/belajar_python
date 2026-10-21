@@ -1,7 +1,9 @@
+# Menyiapkan password dan batas percobaan.
 password_benar = "12345"
 percobaan = 0
 max_percobaan = 3
 
+# Memberi kesempatan login maksimal tiga kali.
 while percobaan < max_percobaan:
     password = input("Masukkan password: ")
     percobaan += 1
