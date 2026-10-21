@@ -1,42 +1,50 @@
-class Sekolah:
-    def __init__(self, nama_sekolah, alamat, jumlah_guru, jumlah_murid):
-        self.nama_sekolah = nama_sekolah
-        self.alamat = alamat
-        self.jumlah_guru = jumlah_guru
-        self.jumlah_murid = jumlah_murid
+class Kampus:
+    def __init__(self, nama_kampus, alamat_kampus, jumlah_dosen, jumlah_mahasiswa):
+        self.nama_kampus = nama_kampus
+        self.alamat_kampus = alamat_kampus
+        self.jumlah_dosen = jumlah_dosen
+        self.jumlah_mahasiswa = jumlah_mahasiswa
     def tampilkan_info(self):
-        print("\nNama Sekolah :", self.nama_sekolah)
-        print("Alamat :", self.alamat)
-        print("Jumlah Guru :", self.jumlah_guru)
-        print("Jumlah Murid :", self.jumlah_murid)
+        print("\nNama kampus :", self.nama_kampus)
+        print("Alamat kampus :", self.alamat_kampus)
+        print("Jumlah dosen :", self.jumlah_dosen)
+        print("Jumlah mahasiswa :", self.jumlah_mahasiswa)
 
-class Guru:
-    def __init__(self, nama, pelajaran):
+class Dosen:
+    def __init__(self, NIDN, nama, kelas, prodi):
+        self.NIDN = NIDN
         self.nama = nama
-        self.pelajaran = pelajaran
+        self.kelas = kelas
+        self.prodi = prodi
     def tampilkan_info(self):
-        print("\nNama :", self.nama)
-        print("Pelajaran :", self.pelajaran)
+        print("\nNIDN :", self.NIDN)
+        print("Nama :", self.nama)
+        print("Kelas :", self.kelas)
+        print("Prodi :", self.prodi)
 
-class Siswa:
-    def __init__(self, nama, nim, ):
+class Mahasiswa:
+    def __init__(self, NIM, nama, semester, prodi):
+        self.NIM = NIM
         self.nama = nama
-        self.nim = nim
+        self.semester = semester
+        self.prodi = prodi
     def tampilkan_info(self):
-        print("\nNama :", self.nama)
-        print("NIM :", self.nim)
+        print("\nNIM :", self.NIM)
+        print("Nama :", self.nama)
+        print("Semester :", self.semester)
+        print("Prodi :", self.prodi)
 
-sekolah1 = Sekolah("SD N 176", "JL. Muara Bulian", "2", "2")
-guru1 = Guru("azka", "PBO", "Pemrograman")
-guru2 = Guru("fatir", "figma")
-siswa1 = Siswa("kemaz", "12345")
-siswa2 = Siswa("Fadil", "67890")
+kampus = Kampus("Universitas Graha Karya Muara Bulian", "Jl. Teratai No. 123", 50, 2000)
+dosen1 = Dosen("001", "Dr. Hamzah Azka", "A", "Teknik Informatika")
+dosen2 = Dosen("002", "Dr. M Fathir", "B", "Sistem Informasi")
+mahasiswa1 = Mahasiswa("123456789", "Kemaz Raihan", 3, "Sistem Informasi")
+mahasiswa2 = Mahasiswa("987654321", "Rizky Fadillah", 5, "Teknik Informatika")
 
-print("===INFO SEKOLAH===")
-sekolah1.tampilkan_info()
-print("==INFO GURU===")
-guru1.tampilkan_info()
-guru2.tampilkan_info()
-print("===INFO SISWA===")
-siswa1.tampilkan_info()
-siswa2.tampilkan_info()
+print("\n===INFO KAMPUS===")
+kampus.tampilkan_info()
+print("\n===INFO DOSEN===")
+dosen1.tampilkan_info()
+dosen2.tampilkan_info()
+print("\n===INFO MAHASISWA===")
+mahasiswa1.tampilkan_info()
+mahasiswa2.tampilkan_info()
