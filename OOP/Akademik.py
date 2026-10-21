@@ -37,9 +37,10 @@ class Mahasiswa:
 kampus = Kampus("Universitas Graha Karya Muara Bulian", "Jl. Teratai No. 123", 50, 2000)
 dosen1 = Dosen("001", "Dr. Hamzah Azka", "A", "Teknik Informatika")
 dosen2 = Dosen("002", "Dr. M Fathir", "B", "Sistem Informasi")
+dosen3 = Dosen("003", "Dr. M. Azril", "C", "Teknik Elektro")
 mahasiswa1 = Mahasiswa("123456789", "Kemaz Raihan", 3, "Sistem Informasi")
 mahasiswa2 = Mahasiswa("987654321", "Rizky Fadillah", 5, "Teknik Informatika")
-
+mahasiswa3 = Mahasiswa("456789123", "Ridho Rhoma", 7, "Teknik Elektro")
 print("\n===INFO KAMPUS===")
 kampus.tampilkan_info()
 print("\n===INFO DOSEN===")
