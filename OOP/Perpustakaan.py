@@ -8,6 +8,7 @@ class Perpustakaan:
         print("\nNama Perpustakaan :", self.nama_perpustakaan)
         print("Alamat :", self.alamat)
         print("Jumlah Buku :", self.jumlah_buku)
+        
 # Menyimpan informasi buku.
 class Buku:
     def __init__(self, judul_buku, pencipta, tahun_terbit):
