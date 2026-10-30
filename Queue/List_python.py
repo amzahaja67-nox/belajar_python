@@ -1,3 +1,6 @@
+# Implementasi berikut menggunakan list Python. 
+# # Untuk pembelajaran awal, list dapat memperlihatkan konsep Queue dengan jelas. Namun, menghapus elemen pertama menggunakan pop(0) membutuhkan pergeseran elemen dan dapat memerlukan waktu O(n).
+
 class Queue:
     def __init__(self):
         self.data = []
@@ -56,3 +59,4 @@ print("Tiket dilayani:", q.dequeue())
 
 q.display()
 print("Jumlah antrean:", q.size())
+

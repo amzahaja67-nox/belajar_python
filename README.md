@@ -40,6 +40,7 @@ Kumpulan contoh program sederhana untuk mempelajari dasar-dasar pemrograman Pyth
 | `LIFO/stack pengelolaan riwayat.py` | Program pengelolaan riwayat aktivitas menggunakan Stack |
 | `Handling/Handling.py` | Membuat, membaca, menambah, dan menghapus file |
 | `OOP/` | Contoh penerapan konsep OOP dalam beberapa kasus |
+| `Queue/` |  |
 
 ## Cara Menjalankan
 
@@ -56,6 +57,7 @@ python While_loop.y.py
 python Handling/Handling.py
 python OOP/sekolah.py
 python "LIFO/stack pengelolaan riwayat.py"
+python "Queue/circular queue"
 ```
 
 Beberapa program meminta input dari pengguna. Ikuti instruksi yang muncul pada terminal.
