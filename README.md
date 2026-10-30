@@ -16,7 +16,7 @@ Kumpulan contoh program sederhana untuk mempelajari dasar-dasar pemrograman Pyth
 - Struktur data Stack dengan konsep LIFO (Last In, First Out)
 - File handling
 - Dasar-dasar Object-Oriented Programming (OOP)
-- Queue
+- Queue, Prinsip FIFO, Operasi Dasar, Circular Queue, dan Priority Queue
 
 ## Struktur File
 
