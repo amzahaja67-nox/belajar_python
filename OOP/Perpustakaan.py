@@ -36,7 +36,7 @@ class Anggota:
 # Membuat data contoh perpustakaan, buku, dan anggota.
 perpustakaan = Perpustakaan("Perpustakaan Amzah", "Jl. Muara Bulian No. 1", 5)
 
-buku1 = Buku("Sistem Basis Data", "Indra", 2020)
+buku1 = Buku("Sistem Basis Data", "Irwan", 2020)
 buku2 = Buku("Pemrograman Dasar", "Fathir", 2021)
 buku3 = Buku("Dasar Dasar Python", "Ilham", 2025)
 buku4 = Buku("Bahasa Indonesia", "Azka", 2022)
