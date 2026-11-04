@@ -34,7 +34,7 @@ class Pasien:
 # Membuat data contoh rumah sakit, dokter, dan pasien.
 rumah_sakit = Rumah_Sakit("RS H.Hamzah", "Jl. Muara Bulian No. 25", 20, 5)
 dokter1 = Dokter("Dr. Fathir", "Spesialis Gigi")
-dokter2 = Dokter("Dr. Kemaz", "Spesialis Mata")
+dokter2 = Dokter("Dr. Dhani", "Spesialis Mata")
 dokter3 = Dokter("Dr. Arifin", "Spesialis Jantung")
 dokter4 = Dokter("Dr. Fadil", "Spesialis Kulit")
 dokter5 = Dokter("Dr. Alan", "Spesialis Anak")
