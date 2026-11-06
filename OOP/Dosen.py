@@ -1,18 +1,13 @@
-# Menyimpan informasi dosen.
 class Dosen:
-    def __init__(self, NIDN, nama, kelas, prodi):
-        self.NIDN = NIDN
-        self.nama = nama
-        self.kelas = kelas
-        self.prodi = prodi
+    def __init__(self, nama_dosen, NIP, mata_kuliah):
+        self.nama_dosen = nama_dosen
+        self.NIP = NIP
+        self.mata_kuliah = mata_kuliah
     def tampilkan_info(self):
-        print("\nNIDN :", self.NIDN)
-        print("Nama :", self.nama)
-        print("Kelas :", self.kelas)
-        print("Prodi :", self.prodi)
+        print("Nama Dosen:", self.nama_dosen)
+        print("NIP:", self.NIP)
+        print("Mata Kuliah:", self.mata_kuliah)
 
-# Membuat objek dosen.
-dosen = Dosen("251010", "M Fathir", "3", "Sistem Informasi")
-
+dosen = Dosen("Dr. Hamzah Azka", "123456789", "Pemrograman Berorientasi Objek")
 print("\n===INFO DOSEN===")
 dosen.tampilkan_info()
