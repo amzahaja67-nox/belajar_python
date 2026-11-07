@@ -1,2 +1,2 @@
 # Menampilkan tulisan sederhana.
-print("Hello World")
+print("Hello Programmer!")
