@@ -39,6 +39,8 @@ Kumpulan contoh kode dan program latihan praktis untuk mempelajari dasar-dasar p
 
 ### 1. Dasar Python dan Kontrol Alur (Root)
 
+![Ilustrasi tipe data Python](Assets/Images/Tipe%20Data%20Python.png)
+
 | File | Deskripsi Materi |
 | --- | --- |
 | `Hello.py` | Program pengenalan: mencetak teks sederhana ke konsol |
