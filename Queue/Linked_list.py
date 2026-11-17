@@ -89,3 +89,5 @@ q.display()
 print("Front:", q.front())
 print("Rear:", q.rear())
 print("Jumlah:", q.size())
+
+

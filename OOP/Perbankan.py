@@ -47,7 +47,7 @@ class Nasabah:
         print("Nomor Telepon :", self.nomor_telepon)
 
 # Membuat data contoh bank dan nasabahnya.
-bank = Bank("Bank AMZ", "Jl. Muara Bulian No. 09", "HAM025", [], 4)
+bank = Bank("Bank AMZAH", "Jl. Muara Bulian No. 09", "HAM025", [], 4)
 
 rekening = Rekening("1234567890", "Azka", 1000000)
 rekening2 = Rekening("0987654321", "Hamzah", 500000)
