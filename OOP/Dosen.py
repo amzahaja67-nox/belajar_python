@@ -8,6 +8,10 @@ class Dosen:
         print("NIP:", self.NIP)
         print("Mata Kuliah:", self.mata_kuliah)
 
-dosen = Dosen("Dr. Hamzah Azka", "123456789", "Pemrograman Berorientasi Objek")
+dosen1 = Dosen("Dr. Hamzah Azka", "123456789", "Pemrograman Berorientasi Objek")
+dosen2 = Dosen("Dr. M Fathir", "987654321", "Struktur Data")
+dosen3 = Dosen("Dr. M. Azril", "456789123", "Basis Data")
 print("\n===INFO DOSEN===")
-dosen.tampilkan_info()
+dosen1.tampilkan_info()
+dosen2.tampilkan_info()
+dosen3.tampilkan_info()

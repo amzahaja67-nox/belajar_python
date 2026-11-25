@@ -10,10 +10,11 @@ Kumpulan contoh kode dan program latihan praktis untuk mempelajari dasar-dasar p
 - [Struktur Folder dan Penjelasan File](#struktur-folder-dan-penjelasan-file)
   - [1. Dasar Python dan Kontrol Alur (Root)](#1-dasar-python-dan-kontrol-alur-root)
   - [2. Algoritma Rekursi & Pohon Biner (Root)](#2-algoritma-rekursi--pohon-biner-root)
-  - [3. Struktur Data Stack - LIFO (`LIFO/`)](#3-struktur-data-stack---lifo-lifo)
-  - [4. Struktur Data Queue - FIFO (`Queue/`)](#4-struktur-data-queue---fifo-queue)
-  - [5. Pengelolaan File (`Handling/`)](#5-pengelolaan-file-handling)
-  - [6. Pemrograman Berorientasi Objek (`OOP/`)](#6-pemrograman-berorientasi-objek-oop)
+  - [3. Binary Search Tree - BST (`BST/`)](#3-binary-search-tree---bst-bst)
+  - [4. Struktur Data Stack - LIFO (`LIFO/`)](#4-struktur-data-stack---lifo-lifo)
+  - [5. Struktur Data Queue - FIFO (`Queue/`)](#5-struktur-data-queue---fifo-queue)
+  - [6. Pengelolaan File (`Handling/`)](#6-pengelolaan-file-handling)
+  - [7. Pemrograman Berorientasi Objek (`OOP/`)](#7-pemrograman-berorientasi-objek-oop)
 - [Cara Menjalankan Program](#cara-menjalankan-program)
 - [Rekomendasi Urutan Belajar](#rekomendasi-urutan-belajar)
 - [Tujuan Pembelajaran](#tujuan-pembelajaran)
@@ -30,8 +31,9 @@ Kumpulan contoh kode dan program latihan praktis untuk mempelajari dasar-dasar p
    - **Stack (LIFO - Last In, First Out)**: Implementasi menggunakan list bawaan maupun *class*, lengkap dengan studi kasus sistem riwayat aktivitas.
    - **Queue (FIFO - First In, First Out)**: Implementasi antrean berbasis list, *linked list*, serta *circular queue* (antrean melingkar berbasis array modulo).
 6. **Struktur Data Non-Linear (Tree)**: Pohon Biner (*Binary Tree*) beserta teknik penelusuran (*traversal*): Preorder, Inorder, dan Postorder.
-7. **Pengelolaan File (File Handling)**: Operasi pembuatan berkas (*create*), pembacaan (*read*), penambahan data (*append*), penghapusan berkas (*delete*), serta mini-project pengelolaan data mahasiswa.
-8. **Object-Oriented Programming (OOP)**: Konsep *class*, atribut, *constructor* (`__init__`), *method*, dan instansiasi objek melalui berbagai studi kasus nyata (akademik, perbankan, perpustakaan, rumah sakit, dan toko).
+7. **Binary Search Tree (BST)**: Pembentukan BST serta operasi penyisipan (*insertion*), pencarian (*searching*), dan penghapusan (*deletion*), dilengkapi traversal Inorder untuk menampilkan data terurut.
+8. **Pengelolaan File (File Handling)**: Operasi pembuatan berkas (*create*), pembacaan (*read*), penambahan data (*append*), penghapusan berkas (*delete*), serta mini-project pengelolaan data mahasiswa.
+9. **Object-Oriented Programming (OOP)**: Konsep *class*, atribut, *constructor* (`__init__`), *method*, dan instansiasi objek melalui berbagai studi kasus nyata (akademik, perbankan, perpustakaan, rumah sakit, dan toko).
 
 ---
 
@@ -67,7 +69,17 @@ Kumpulan contoh kode dan program latihan praktis untuk mempelajari dasar-dasar p
 | `Fibonacci.py` | Pembentukan deret bilangan Fibonacci menggunakan rekursi standar dan rekursi dengan *memoization* |
 | `Traversal  Pohon Biner.py` | Implementasi simpul (*Node*) Pohon Biner dan traversal Preorder, Inorder, dan Postorder |
 
-### 3. Struktur Data Stack - LIFO (`LIFO/`)
+### 3. Binary Search Tree - BST (`BST/`)
+
+| File | Deskripsi Materi |
+| --- | --- |
+| `BST/Pembentukan_BST.py` | Membentuk BST dengan menyisipkan data dan menampilkan hasilnya menggunakan traversal Inorder |
+| `BST/Latihan_Insertion_BST.py` | Latihan menambahkan data baru ke BST |
+| `BST/Latihan_Searching_BST.py` | Mencari data pada BST dan menampilkan jalur simpul yang diperiksa |
+| `BST/Latihan_Deletetion_BST.py` | Latihan menghapus data dari BST, termasuk kasus simpul tanpa anak, satu anak, dan dua anak |
+| `BST/Praktik_Pemrogaman_Python.py` | Program interaktif untuk mencari nilai pada BST |
+
+### 4. Struktur Data Stack - LIFO (`LIFO/`)
 
 | File | Deskripsi Materi |
 | --- | --- |
@@ -75,7 +87,7 @@ Kumpulan contoh kode dan program latihan praktis untuk mempelajari dasar-dasar p
 | `LIFO/Class stack.py` | Implementasi struktur data Stack berbasis Class OOP lengkap dengan menu interaktif |
 | `LIFO/Stack pengelolaan riwayat.py` | Studi kasus riwayat aktivitas operator akademik menggunakan konsep Stack |
 
-### 4. Struktur Data Queue - FIFO (`Queue/`)
+### 5. Struktur Data Queue - FIFO (`Queue/`)
 
 | File | Deskripsi Materi |
 | --- | --- |
@@ -87,13 +99,13 @@ Kumpulan contoh kode dan program latihan praktis untuk mempelajari dasar-dasar p
 | `Queue/Circular_queue.py` | Antrean melingkar (*Circular Queue*) prosedural dengan batas kapasitas (modulo *indexing*) |
 | `Queue/Circular_queue_Array.py` | Implementasi *Circular Queue* berbasis Class OOP menggunakan list fixed-size dan penanganan kondisi *full*/*empty* |
 
-### 5. Pengelolaan File (`Handling/`)
+### 6. Pengelolaan File (`Handling/`)
 
 | File | Deskripsi Materi |
 | --- | --- |
 | `Handling/Handling.py` | Program menu interaktif untuk membuat berkas, membaca seluruh teks, membaca baris per baris, menambahkan data (*append*), menghapus berkas, serta sistem sederhana pendataan mahasiswa |
 
-### 6. Pemrograman Berorientasi Objek (`OOP/`)
+### 7. Pemrograman Berorientasi Objek (`OOP/`)
 
 | File | Deskripsi Materi |
 | --- | --- |
@@ -133,13 +145,23 @@ Buka terminal atau command prompt pada folder proyek ini, lalu jalankan file yan
    ```
    *(Gunakan tanda petik dua jika nama file mengandung spasi)*
 
-3. **Menjalankan program Stack (LIFO):**
+3. **Menjalankan program Binary Search Tree (BST):**
+   ```bash
+   python BST/Pembentukan_BST.py
+   python BST/Latihan_Insertion_BST.py
+   python BST/Latihan_Searching_BST.py
+   python BST/Latihan_Deletetion_BST.py
+   python BST/Praktik_Pemrogaman_Python.py
+   ```
+   *(Program `Praktik_Pemrogaman_Python.py` meminta angka yang ingin dicari.)*
+
+4. **Menjalankan program Stack (LIFO):**
    ```bash
    python "LIFO/Class stack.py"
    python "LIFO/Stack pengelolaan riwayat.py"
    ```
 
-4. **Menjalankan program Queue (FIFO):**
+5. **Menjalankan program Queue (FIFO):**
    ```bash
    python Queue/Latihan_queue_FIFO.py
    python Queue/Circular_queue.py
@@ -147,7 +169,7 @@ Buka terminal atau command prompt pada folder proyek ini, lalu jalankan file yan
    python Queue/Linked_list.py
    ```
 
-5. **Menjalankan program File Handling dan OOP:**
+6. **Menjalankan program File Handling dan OOP:**
    ```bash
    python Handling/Handling.py
    python OOP/Akademik.py
@@ -166,7 +188,7 @@ Agar proses pemahaman berjalan optimal, disarankan mempelajari materi dengan uru
 ```
 [Dasar & Sintaks] ➔ [Kontrol Alur & Loop] ➔ [List & Fungsi] ➔ [Pencarian & Rekursi]
                                                                         │
-[OOP / Berorientasi Objek] 🠔 [File Handling] 🠔 [Tree Traversal] 🠔 [Stack & Queue]
+[OOP / Berorientasi Objek] 🠔 [File Handling] 🠔 [BST] 🠔 [Tree Traversal] 🠔 [Stack & Queue]
 ```
 
 1. **Tahap 1: Fondasi Bahasa**
@@ -184,6 +206,7 @@ Agar proses pemahaman berjalan optimal, disarankan mempelajari materi dengan uru
    - Pahami konsep FIFO, Linked Queue, dan Circular Queue di dalam folder `Queue/`.
 6. **Tahap 6: Struktur Data Hirarkis (Non-Linear)**
    - Pelajari simpul dan penelusuran pohon biner di `Traversal  Pohon Biner.py`.
+   - Lanjutkan ke BST di folder `BST/`, mulai dari pembentukan pohon lalu pelajari insertion, searching, dan deletion.
 7. **Tahap 7: Persistensi Data (File Handling)**
    - Pelajari cara membaca, menulis, dan memanipulasi berkas fisik di `Handling/Handling.py`.
 8. **Tahap 8: Pemrograman Berorientasi Objek (OOP)**
@@ -197,7 +220,7 @@ Setelah menyelesaikan dan mempraktikkan seluruh materi pada repositori ini, Anda
 
 - Menguasai sintaks dasar dan alur logika pemrograman Python secara mandiri.
 - Mengimplementasikan konsep perulangan, percabangan, fungsi, dan manipulasi koleksi data dengan baik.
-- Memahami cara kerja algoritma rekursif dan struktur data fundamental (Stack, Queue, dan Binary Tree) yang menjadi dasar ilmu komputer (*Computer Science*).
+- Memahami cara kerja algoritma rekursif dan struktur data fundamental (Stack, Queue, Binary Tree, dan Binary Search Tree) yang menjadi dasar ilmu komputer (*Computer Science*).
 - Mengelola data secara persisten pada media penyimpanan melalui operasi *file I/O*.
 - Memahami paradigma *Object-Oriented Programming* (OOP) untuk merancang program yang modular, terstruktur, dan mudah dikembangkan.
 
